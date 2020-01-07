@@ -58,7 +58,7 @@ export default {
     },
     methods: {
         onClickLeft() {
-            Toast('返回');
+            this.$router.push('/login')
         }
     },
     components:{
@@ -70,11 +70,16 @@ export default {
 
 <style lang="less" scoped>
 .register{
+    padding-top: 1.875rem;
     .van-nav-bar{
+        height: 21px;
+        line-height: 21px;
         background-color: transparent !important;
         margin-bottom: 3.375rem;
+        // margin-top:30px;
         .van-icon{
             color: #FFF;
+            font-size: 17.74px;
         }
         .van-nav-bar__title{
             color: #FFF;
@@ -84,7 +89,7 @@ export default {
         padding: 0 0 0 15px;
         height: 40px;
         line-height: 40px;
-        font-size: 17px;
+        font-size: 12px;
         background-color: #F0F0F0;
         margin-bottom: 10px;
         border-radius: 7px;
@@ -96,7 +101,7 @@ export default {
         .van-button--small{
             height: 40px;
             line-height: 40px;
-            font-size: 18px;
+            font-size: 13px;
         }
         
         /deep/ .van-field__right-icon{
@@ -107,11 +112,11 @@ export default {
     .reg-btn{
         height: 40px;
         line-height: 40px;
-        font-size: 20px;
+        font-size: 14px;
         color: #CCCCCC;
         background: none;
         border: 0px;
-        background: #1C158F;
+        background:linear-gradient(180deg,rgba(4,0,84,1) 0%,rgba(28,21,143,1) 100%);
     }
     .van-checkbox{
         padding-left: 2rem;

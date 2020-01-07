@@ -6,9 +6,9 @@ import store from './store'
 import fastclick from"fastclick";
 fastclick.attach(document.body)
 
-import { Button,NavBar,Field,Checkbox,CheckboxGroup } from 'vant';
+import { Button,NavBar,Field,Checkbox,CheckboxGroup,Tab,Tabs } from 'vant';
 
-Vue.use(Button).use(NavBar).use(Field).use(Checkbox).use(CheckboxGroup);
+Vue.use(Button).use(NavBar).use(Field).use(Checkbox).use(CheckboxGroup).use(Tab).use(Tabs);
 
 Vue.config.productionTip = false
 
