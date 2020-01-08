@@ -30,7 +30,7 @@
                     <van-button slot="button" size="small" type="primary">发送验证码</van-button>
                 </van-field>
                 <p class="explain">仅支持手机找回密码,邮箱用户请联系官方客服找回</p>
-                <van-button type="info" size="large" class="forget-btn">下一步</van-button>
+                <van-button type="info" size="large" class="forget-btn" @click="tz">下一步</van-button>
             </form-box>
         </div>
     </Box>
@@ -50,6 +50,9 @@ export default {
         onClickLeft() {
             this.$router.push('/login');
         },
+        tz(){
+            this.$router.push('/rebuildpsd')
+        }
     },
     components:{
         Box,
@@ -163,6 +166,7 @@ export default {
             background: none;
             border: 0px;
             background:linear-gradient(180deg,rgba(4,0,84,1) 0%,rgba(28,21,143,1) 100%);
+            border-radius: 7px;
         }
     }
 </style>

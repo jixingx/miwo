@@ -14,7 +14,7 @@
                 <p class="one-zs">中国移动提供认证服务</p>
             </div>
             <div class="btn">
-                <van-button type="info" size="large" class="onekey-btn">本机号码一键登录</van-button>
+                <van-button type="info" size="large" class="onekey-btn" @click="tz">本机号码一键登录</van-button>
                 <router-link to="/login">手机验证或者密码登录</router-link>
             </div>
             <div class="other-login">
@@ -40,6 +40,11 @@ export default {
             phone:'187****8650',
             checked:true,
             checked2:true
+        }
+    },
+    methods: {
+        tz(){
+            this.$router.push('/home')
         }
     },
     components:{

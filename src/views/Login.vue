@@ -175,6 +175,7 @@ export default {
                 background: none;
                 border: 0px;
                 background:linear-gradient(180deg,rgba(4,0,84,1) 0%,rgba(28,21,143,1) 100%);
+                border-radius: 7px;
             }
         }
         .jump{

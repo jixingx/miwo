@@ -1,19 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Home from '../views/Home.vue'
+
 import Register from '../views/Register.vue'
 import Login from '../views/Login.vue'
 import OnekeyLogin from '../views/OnekeyLogin.vue'
 import ForgetPsd from '../views/ForgetPsd.vue'
+import RebuildPsd from '../views/RebuildPsd.vue'
+import Nickname from '../views/Nickname.vue'
+import Home from '../views/Home.vue'
+import Serach from '../views/Serach.vue'
+import Notice from '../views/Notice.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component: Home
-  // },
   // {
   //   path: '/about',
   //   name: 'about',
@@ -24,7 +24,7 @@ const routes = [
   // }
   {
     path:'/',
-    redirect: '/login'
+    redirect: '/onekeylogin'
   },
   {
     path: '/register',
@@ -45,6 +45,31 @@ const routes = [
     path: '/forgetpsd',
     name: 'forgetpsd',
     component: ForgetPsd
+  },
+  {
+    path: '/rebuildpsd',
+    name: 'rebuildpsd',
+    component: RebuildPsd
+  },
+  {
+    path: '/nickname',
+    name: 'nickname',
+    component: Nickname
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: Home
+  },
+  {
+    path: '/serach',
+    name: 'serach',
+    component: Serach
+  },
+  {
+    path: '/notice',
+    name: 'notice',
+    component: Notice
   },
 ]
 

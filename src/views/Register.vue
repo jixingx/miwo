@@ -35,7 +35,7 @@
                     right-icon="closed-eye"
                     placeholder="再次确认密码"
                 />
-                <van-button type="info" size="large" class="reg-btn">立即注册</van-button>
+                <van-button type="info" size="large" class="reg-btn" @click="tz">立即注册</van-button>
             </form-box>
             <van-checkbox v-model="checked" checked-color="#FFFFFF" icon-size="14px">注册同意《蜜窝优品用户服务条款》</van-checkbox>
         </div>
@@ -59,6 +59,9 @@ export default {
     methods: {
         onClickLeft() {
             this.$router.push('/login')
+        },
+        tz(){
+            this.$router.push('/nickname')
         }
     },
     components:{
@@ -117,6 +120,7 @@ export default {
         background: none;
         border: 0px;
         background:linear-gradient(180deg,rgba(4,0,84,1) 0%,rgba(28,21,143,1) 100%);
+        border-radius: 7px;
     }
     .van-checkbox{
         padding-left: 2rem;
