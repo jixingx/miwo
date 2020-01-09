@@ -17,7 +17,8 @@ import {
   Search,
   Icon,
   Row, 
-  Col
+  Col,
+  Panel
 } from 'vant';
 
 Vue.use(Button)
@@ -30,7 +31,8 @@ Vue.use(Button)
    .use(Search)
    .use(Icon)
    .use(Row)
-   .use(Col);
+   .use(Col)
+   .use(Panel);
 
 Vue.config.productionTip = false
 

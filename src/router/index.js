@@ -24,7 +24,7 @@ const routes = [
   // }
   {
     path:'/',
-    redirect: '/onekeylogin'
+    redirect: '/home'
   },
   {
     path: '/register',
