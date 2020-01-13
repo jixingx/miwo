@@ -70,6 +70,7 @@
 import Box from '../components/LR/Box'
 import FormBox from '../components/LR/FormBox'
 export default {
+    name:"Login",
     data() {
         return {
             active:0,

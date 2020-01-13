@@ -10,6 +10,7 @@ import Nickname from '../views/Nickname.vue'
 import Home from '../views/Home.vue'
 import Serach from '../views/Serach.vue'
 import Notice from '../views/Notice.vue'
+import NewsDetails from '../views/NewsDetails.vue'
 
 Vue.use(VueRouter)
 
@@ -70,6 +71,11 @@ const routes = [
     path: '/notice',
     name: 'notice',
     component: Notice
+  },
+  {
+    path: '/newsdetails',
+    name: 'newsdetails',
+    component: NewsDetails
   },
 ]
 

@@ -47,6 +47,7 @@
 import Box from '../components/LR/Box'
 import FormBox from '../components/LR/FormBox'
 export default {
+    name:"Register",
     data() {
         return {
             phone:'',

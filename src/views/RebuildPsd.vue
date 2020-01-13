@@ -37,6 +37,7 @@
 import Box from '../components/LR/Box'
 import FormBox from '../components/LR/FormBox'
 export default {
+    name:"RebuildPsd",
     data() {
         return {
             password:'',

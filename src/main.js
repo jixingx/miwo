@@ -18,7 +18,11 @@ import {
   Icon,
   Row, 
   Col,
-  Panel
+  Panel,
+  Cell, 
+  CellGroup,
+  Tag,
+  PullRefresh
 } from 'vant';
 
 Vue.use(Button)
@@ -32,7 +36,11 @@ Vue.use(Button)
    .use(Icon)
    .use(Row)
    .use(Col)
-   .use(Panel);
+   .use(Panel)
+   .use(Cell)
+   .use(CellGroup)
+   .use(Tag)
+   .use(PullRefresh);
 
 Vue.config.productionTip = false
 

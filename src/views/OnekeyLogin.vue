@@ -35,6 +35,7 @@
 <script>
 import Box from '../components/LR/Box'
 export default {
+    name:"OnekeyLogin",
     data() {
         return {
             phone:'187****8650',

@@ -42,6 +42,7 @@
 
 <script>
 export default {
+    name:"Serach",
     data() {
         return {
             icon:require("../assets/image/home/serach.png")

@@ -26,6 +26,7 @@
 import Box from '../components/LR/Box'
 import FormBox from '../components/LR/FormBox'
 export default {
+    name:"Nickname",
     data() {
         return {
             name:"187****8650ROKY"
