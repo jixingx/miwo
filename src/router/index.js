@@ -11,6 +11,7 @@ import Home from '../views/Home.vue'
 import Serach from '../views/Serach.vue'
 import Notice from '../views/Notice.vue'
 import NewsDetails from '../views/NewsDetails.vue'
+import Understand from '../views/Understand.vue'
 
 Vue.use(VueRouter)
 
@@ -76,6 +77,11 @@ const routes = [
     path: '/newsdetails',
     name: 'newsdetails',
     component: NewsDetails
+  },
+  {
+    path: '/understand',
+    name: 'understand',
+    component: Understand
   },
 ]
 

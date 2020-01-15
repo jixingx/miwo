@@ -22,7 +22,11 @@ import {
   Cell, 
   CellGroup,
   Tag,
-  PullRefresh
+  PullRefresh,
+  Grid,
+  GridItem,
+  Tabbar,
+  TabbarItem
 } from 'vant';
 
 Vue.use(Button)
@@ -40,7 +44,11 @@ Vue.use(Button)
    .use(Cell)
    .use(CellGroup)
    .use(Tag)
-   .use(PullRefresh);
+   .use(PullRefresh)
+   .use(Grid)
+   .use(GridItem)
+   .use(Tabbar)
+   .use(TabbarItem);
 
 Vue.config.productionTip = false
 
