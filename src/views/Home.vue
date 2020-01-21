@@ -188,7 +188,7 @@ export default {
             font-weight:500;
             line-height:25px;
             color: #333333;
-            padding-left: 0.3125rem;
+            padding-left: 0.5125rem;
             margin-bottom: 0.75rem;
             background-image:url("../assets/image/home/shu.png");
             background-repeat:no-repeat;

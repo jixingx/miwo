@@ -52,25 +52,25 @@ export default {
         return {
             icon1:{
                 active:require("../assets/image/tab/sy_active.png"),
-                inactive:require("../assets/image/tab/sy_active.png")
+                inactive:require("../assets/image/tab/sy.png")
             },
             icon2:{
-                active:require("../assets/image/tab/kt.png"),
+                active:require("../assets/image/tab/kt_active.png"),
                 inactive:require("../assets/image/tab/kt.png")
             },
             icon3:{
-                active:require("../assets/image/tab/rw.png"),
+                active:require("../assets/image/tab/rw_active.png"),
                 inactive:require("../assets/image/tab/rw.png")
             },
             icon4:{
-                active:require("../assets/image/tab/fx.png"),
+                active:require("../assets/image/tab/fx_active.png"),
                 inactive:require("../assets/image/tab/fx.png")
             },
             icon5:{
-                active:require("../assets/image/tab/wd.png"),
+                active:require("../assets/image/tab/wd_active.png"),
                 inactive:require("../assets/image/tab/wd.png")
             },
-            active: 'home'
+            active: '0'
         }
     },
 }

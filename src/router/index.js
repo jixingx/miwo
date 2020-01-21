@@ -12,6 +12,9 @@ import Serach from '../views/Serach.vue'
 import Notice from '../views/Notice.vue'
 import NewsDetails from '../views/NewsDetails.vue'
 import Understand from '../views/Understand.vue'
+import Classroom from '../views/Classroom.vue'
+import Task from '../views/Task.vue'
+import Find from '../views/Find.vue'
 
 Vue.use(VueRouter)
 
@@ -82,6 +85,21 @@ const routes = [
     path: '/understand',
     name: 'understand',
     component: Understand
+  },
+  {
+    path: '/classroom',
+    name: 'classroom',
+    component: Classroom
+  },
+  {
+    path: '/task',
+    name: 'task',
+    component: Task
+  },
+  {
+    path: '/find',
+    name: 'find',
+    component: Find
   },
 ]
 
