@@ -28,7 +28,8 @@ import {
   Tabbar,
   TabbarItem,
   Swipe, 
-  SwipeItem
+  SwipeItem,
+  List
 } from 'vant';
 
 Vue.use(Button)
@@ -52,7 +53,8 @@ Vue.use(Button)
    .use(Tabbar)
    .use(TabbarItem)
    .use(Swipe)
-   .use(SwipeItem);
+   .use(SwipeItem)
+   .use(List);
 
 Vue.config.productionTip = false
 

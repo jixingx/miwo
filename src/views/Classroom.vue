@@ -36,14 +36,14 @@
                     </van-swipe>
                 </div>
                 <div class="Introduction">
-                    <img src="../assets/image/kt/rumen.png">
+                    <img src="../assets/image/kt/rumen.png" @click="xsrm()">
                 </div>
             </div>
             
         </div>
         <div class="Recommend">
             <h4>热门推荐
-                <span>全部&nbsp;></span>
+                <span @click="rmtjAll">全部&nbsp;></span>
             </h4>
             <div class="plan-item">
                 <div class="plan-item-left">
@@ -137,7 +137,12 @@ export default {
         onClickLeft(){
             this.$router.push('/home')
         },
-        
+        xsrm(){
+            this.$router.push('/introduction')
+        },
+        rmtjAll(){
+            this.$router.push('/phpre')
+        }
     },
     components:{
         Tab

@@ -15,6 +15,8 @@ import Understand from '../views/Understand.vue'
 import Classroom from '../views/Classroom.vue'
 import Task from '../views/Task.vue'
 import Find from '../views/Find.vue'
+import Introduction from '../views/Introduction.vue'
+import PhpRe from '../views/PhpRe.vue'
 
 Vue.use(VueRouter)
 
@@ -100,6 +102,16 @@ const routes = [
     path: '/find',
     name: 'find',
     component: Find
+  },
+  {
+    path: '/introduction',
+    name: 'introduction',
+    component: Introduction
+  },
+  {
+    path: '/phpre',
+    name: 'phpre',
+    component: PhpRe
   },
 ]
 
