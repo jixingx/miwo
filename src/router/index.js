@@ -17,6 +17,7 @@ import Task from '../views/Task.vue'
 import Find from '../views/Find.vue'
 import Introduction from '../views/Introduction.vue'
 import PhpRe from '../views/PhpRe.vue'
+import CuSkille from '../views/CuSkille.vue'
 
 Vue.use(VueRouter)
 
@@ -112,6 +113,11 @@ const routes = [
     path: '/phpre',
     name: 'phpre',
     component: PhpRe
+  },
+  {
+    path: '/cuskille',
+    name: 'cuskille',
+    component: CuSkille
   },
 ]
 

@@ -17,7 +17,7 @@
                     finished-text="没有更多了"
                     @load="onLoad"
                 >
-                    <div class="plan-item">
+                    <div class="plan-item" @click="cuskille">
                         <div class="plan-item-left">
                             <img src="../assets/image/kt/play.png" class="play" alt="" srcset="">
                             <img src="../assets/image/kt/rmqb.png" alt="" srcset="">
@@ -72,6 +72,9 @@ export default {
         },
         onLoad() {
 
+        },
+        cuskille(){
+            this.$router.push('/cuskille')
         }
     },
     
